@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    background-color: antiquewhite;
+    min-height: 100vh;
+    border: 10px solid black;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+
+.top_section {
+    margin-top: 100px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.top_section h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: blueviolet;
+    text-transform: uppercase;
+    margin-right: 200px;
+    margin-left: 10px;
+
+}
+.top_section h3{
+    margin-left:200px ;
+}
+
+.image_container {
+    border-radius: 50%;
+    /*overflow: hidden;*/
+    overflow: inherit
+}
+
+.image_container,
+img {
+    width: 300px;
+    height: 320px;
+}
+.about_section{
+    margin-top: 50px;
+
+}
+.about_section h2{
+    font-size: 30px;
+    font-weight: 400px;
+    margin-bottom: 28px;
+    margin-left: 50px;
+
+}
+.about_section p{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2; 
+    margin-left: 50px;
+
+}
+
+.about_section h3{
+        font-size: 20px;
+        margin-left: 50px;
+
+    
+}
+.Award_section{
+    margin-left:50px ;
+    line-height:30px ;
+    letter-spacing: 1.2;
+     display:flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+}
+.Award_section h3{
+    line-height:30px ;
+    letter-spacing: 1.2;
+    font-size: 30px;
+    margin-block-start: 30px;
+    
+}
+.Award_section ul{
+    font-size: 20px;
+    line-height: 30px;
+    margin-block-start: 100px;
+    margin-right: 60px;
+}
